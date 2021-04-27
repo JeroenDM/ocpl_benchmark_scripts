@@ -1,0 +1,11 @@
+name: halton_gpq
+is_redundant: true
+sampler_type: random
+t_space_batch_size: 1
+c_space_batch_size: 1
+min_valid_samples: 1
+max_iters: 1
+planner_type: global
+cspace_delta: 0.5
+timeout: 5.0
+debug: 0

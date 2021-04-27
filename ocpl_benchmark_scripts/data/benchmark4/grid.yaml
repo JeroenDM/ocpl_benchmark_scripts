@@ -1,0 +1,13 @@
+name: grid
+is_redundant: false
+sampler_type: grid
+planner_type: global
+t_space_batch_size: 100
+c_space_batch_size: 1
+min_valid_samples: 1000
+max_iters: 10000
+cspace_delta: 0.5
+state_cost_weight: 10.0
+tsr_resolution: 1 1 30 30 1 1
+debug: 0
+timeout: 1000

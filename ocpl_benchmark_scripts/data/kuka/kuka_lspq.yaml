@@ -1,0 +1,10 @@
+name: LSPQ
+is_redundant: false
+sampler_type: random
+planner_type: local_best_first_dfs
+t_space_batch_size: 10
+min_valid_samples: 630
+max_iters: 6300
+cspace_delta: 0.1
+state_cost_weight: 10.0
+timeout: 10.0

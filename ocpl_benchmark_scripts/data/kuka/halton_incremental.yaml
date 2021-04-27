@@ -1,0 +1,11 @@
+name: halton_incremental
+is_redundant: false
+sampler_type: halton
+planner_type: global
+t_space_batch_size: 10
+c_space_batch_size: 10
+min_valid_samples: 100
+max_iters: 1000
+cspace_delta: 0.1
+state_cost_weight: 10.0
+timeout: 10.0

@@ -1,0 +1,13 @@
+name: grid
+is_redundant: true
+sampler_type: grid
+t_space_batch_size: 10
+c_space_batch_size: 100
+min_valid_samples: 300
+max_iters: 1000
+redundant_joints_resolution: 32 32 32
+tsr_resolution: 1 1 1 1 1 32
+planner_type: global
+cspace_delta: 0.3
+timeout: 20.0
+debug: 0

@@ -1,0 +1,8 @@
+name: grid
+is_redundant: false
+sampler_type: grid
+planner_type: global
+tsr_resolution: 1 1 1 1 5 30
+cspace_delta: 0.1
+state_cost_weight: 10.0
+timeout: 10.0
